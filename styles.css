@@ -5,13 +5,13 @@
 }
 
 .header {
-    margin: 0;
+    margin : 0;
     display: flex;
     justify-content: space-between;
     font-family: "Roboto";
     background-color: #1F2937;
     text-align: center;
-    padding: 12px 48px;
+    padding: 24px 80px;
 }
 
 .logo {
@@ -42,15 +42,23 @@ a {
     background-color: #1F2937;
     font-family: "Roboto";
     margin: 0;
-    padding: 12px 48px;
+    padding: 72px 80px;
+    gap: 24px;
+
 }
 
 .container1 {
     width: 50%;
+    justify-content: center;
 }
 
 .container2 {
-    width: 50%;
+    display: flex;
+    justify-content: end;
+    width: 60%;
+    max-width:100%;
+    aspect-ratio: 2 / 1;
+    display: flex;
 }
 
 .main-title {
