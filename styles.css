@@ -53,5 +53,14 @@ a {
     width: 50%;
 }
 
+.main-title {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.subtext {
+    color: #E5E7EB;
+    font-size: 18px;;
+}
 
 
