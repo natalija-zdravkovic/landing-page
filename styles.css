@@ -137,8 +137,8 @@ button {
     display: flex;
     flex-direction: column;
     padding-top: 72px;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 300px;
+    padding-right: 300px;
     padding-bottom: 72px;
 }
 
@@ -159,4 +159,32 @@ button {
     font-family: "Roboto";
     font-weight: bold;
     justify-content: end;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-direction: row;
+    background-color: #3882F6;
+    margin: 250px;
+    border-radius: 6px;
+    padding: 30px 90px;
+}
+
+.call {
+    color: #F9FAF8;
+    font-family: "Roboto";
+}
+
+.call-subtext {
+    color: #E5E7EB;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.frame {
+    border: 2px solid white;
+    justify-items: end;
+    font-size: 18px;
 }
