@@ -11,7 +11,10 @@
     font-family: "Roboto";
     background-color: #1F2937;
     text-align: center;
-    padding: 24px 140px;
+    padding-top: 18px;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 72px;
 }
 
 .logo {
@@ -42,7 +45,7 @@ a {
     background-color: #1F2937;
     font-family: "Roboto";
     margin: 0;
-    padding: 72px 140px;
+    padding: 20px 140px;
     gap: 24px;
 
 }
@@ -87,3 +90,13 @@ button {
     border-radius: 8px;
     width: 130px;
   }
+
+.information {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    font-family: "Roboto";
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
