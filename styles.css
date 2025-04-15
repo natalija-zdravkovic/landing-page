@@ -25,7 +25,6 @@
 }
 
 .links {
-
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -99,4 +98,19 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    justify-content: center;
+    margin-top: 24px
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    border: 4px solid #3882F6;
 }
