@@ -73,7 +73,7 @@ a {
 
 .subtext {
     color: #E5E7EB;
-    font-size: 18px;;
+    font-size: 18px;
 }
 
 button {
@@ -127,4 +127,36 @@ button {
     height: 180px;
     width: 180px;
     text-align: center;
+    color: #1F2937;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.motivation {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-top: 72px;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 72px;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-family: "Roboto";
+    font-weight: 300;
+    justify-content: center;
+}
+
+.author {
+    display: flex;
+    font-size: 20px;
+    color: #1F2937;
+    font-family: "Roboto";
+    font-weight: bold;
+    justify-content: end;
 }
