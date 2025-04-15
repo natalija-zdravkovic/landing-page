@@ -11,7 +11,7 @@
     font-family: "Roboto";
     background-color: #1F2937;
     text-align: center;
-    padding: 24px 120px;
+    padding: 24px 140px;
 }
 
 .logo {
@@ -42,7 +42,7 @@ a {
     background-color: #1F2937;
     font-family: "Roboto";
     margin: 0;
-    padding: 72px 120px;
+    padding: 72px 140px;
     gap: 24px;
 
 }
@@ -50,6 +50,9 @@ a {
 .container1 {
     width: 50%;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .container2 {
@@ -71,4 +74,16 @@ a {
     font-size: 18px;;
 }
 
-
+button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    width: 130px;
+  }
